@@ -3,8 +3,9 @@
     "name": "vitalplus",
     "slug": "vitalplus",
     "version": "1.0.0",
+    "scheme": "your-app-scheme",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/vitaplusIcon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -17,14 +18,25 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/vitaplusIcon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.lucas.lm.vitalplus"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/vitaplusIcon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "68b3bbb6-b275-430b-8701-3172156e32ac"
+      }
     }
   }
 }
