@@ -182,6 +182,8 @@ Observação para utilizar a cor acrescente # junto do código hexadecimal.
 #### UX:
 
 Experiência do usuário como animações, transições e etc.
+Link para protótipo completo no Figma: https://www.figma.com/design/KOpsUjF6WzCJhg70HLeoIA/Vital-Plus?t=PLtTnglbizau059o-1
+Link para UI Kit completo do Aplicativo: https://www.figma.com/design/y6q4JSSWKPG71bjKebOstg/VitalPlus-UI-Kit?t=PLtTnglbizau059o-1
 
 ## 🗄️ Backend
 
